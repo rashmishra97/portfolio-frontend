@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div style={{ maxWidth: "800px", margin: "auto" }}>
       <h1>Cloud Architect Portfolio</h1>
-      <p>AWS | DevOps | Cloud Architecture</p>
+      <p>AWS Testing | DevOps | Cloud Architecture</p>
 
       <MessageForm onMessageSent={addMessage} />
       <MessageList messages={messages} />
